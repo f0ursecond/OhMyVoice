@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# macOS
+.DS_Store
+
+# Generated keys and artifacts (jangan commit secret)
+keys/
+encrypted/
+decrypted/
+input/*.mp3
+input/*.wav
+
+.opencode
